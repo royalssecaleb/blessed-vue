@@ -1,0 +1,25 @@
+{
+  "name": "vue-blessed-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-vue": "^3.0.0",
+    "rollup-watch": "^3.2.2",
+    "vue-template-compiler": "^2.5.13"
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "start": "npm run build && node bundle.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-vue": "2.0.1",
+    "faker": "^4.1.0",
+    "moment": "^2.18.1"
+  }
+}
